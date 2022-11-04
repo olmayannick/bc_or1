@@ -15,6 +15,7 @@ const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
 console.log("WavePortal address: ", waveContract.address);
 };
 
+
 const runMain = async () => {
   try {
     await main();
